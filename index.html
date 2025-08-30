@@ -80,6 +80,11 @@
          .login-container button:hover::before {
           width: 70%;
          }
+         .button-group {
+            display: flex;
+            justify-content: space-between;
+         }
+        
           /* Ripple animation on click */
         .login-container button::after {
          content: "";
@@ -108,7 +113,7 @@
     <h2>Login Page</h2>
     <input type="text" placeholder="Username" />
     <input type="password" id="Password" name="Password" placeholder="Type password here" minlength="8" maxlength="15" />
-    <div>
+    <div class="button-group">
       <button type="button">Login</button>
       <button type="button">Cancel</button>
     </div>
@@ -116,3 +121,4 @@
 
 </body>
 </html>
+
