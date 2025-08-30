@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+        *,*::before, *::after{
+          box-sizing:inherit ;
+          transition-property: all;
+          transition-duration: .6s;
+          transition-timing-function: ease;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: navy;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .login-container {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            width: 250px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .login-container h2 {
+          margin: 20px;
+        }
+        .login-container input{
+          width: 90%;
+          padding: 10px;
+          margin: 10px 0;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+        }
+        .login-container button{
+          width: 45%;
+          padding:10px ;  `
+          margin: 5px ;
+          border: none;
+          border-radius: 3px;
+          background-color: navy;
+         ,M JHY    
+          color: white;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+        }
+        /* Hover effect */
+        .login-container button:hover {
+         letter-spacing: 1px;
+         background-color: #000080;
+         transform: scale(1.03);
+        }
+         /* Press/click effect */
+        .login-container button:active {
+         transform: scale(0.96);
+        }
+         /* Underline animation on hover */
+         .login-container button::before{
+          content: "";
+          position: absolute;
+          height: 2px;
+          bottom: 0;
+          left: 15%;
+          width: 0;
+          background-color: white;
+          transition: width 0.3s ease-in-out;
+        }
+          
+         .login-container button:hover::before {
+          width: 70%;
+         }
+          /* Ripple animation on click */
+        .login-container button::after {
+         content: "";
+         position: absolute;
+         background: rgba(255, 255, 255, 0.3);
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%) scale(0);
+         opacity: 0;
+         pointer-events: none;
+         transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+
+         .login-container button:active::after {
+         transform: translate(-50%, -50%) scale(2.5);
+          opacity: 1;
+         }
+
+    </style>
+</head>
+<body>
+     <div class="login-container">
+    <h2>Login Page</h2>
+    <input type="text" placeholder="Username" />
+    <input type="password" id="Password" name="Password" placeholder="Type password here" minlength="8" maxlength="15" />
+    <div>
+      <button type="button">Login</button>
+      <button type="button">Cancel</button>
+    </div>
+  </div>
+
+</body>
+</html>
