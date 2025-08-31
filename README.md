@@ -11,8 +11,8 @@ A simple, responsive login page built using only **HTML** and **CSS**. This proj
 ---
 
 ## 🚀 Live Demo
- 
-http://127.0.0.1:5500/loginpage.html
+
+[Click here to view the live login page]( https://om8908.github.io/login-page-html-css/)
 
 ---
 
