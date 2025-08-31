@@ -4,9 +4,8 @@ A simple, responsive login page built using only **HTML** and **CSS**. This proj
 
 ---
 
-## 📸 Screenshots
-
-![Login Page Screenshot](screenshot.png)  
+## 📸 Screenshots 
+<img width="1920" height="1080" alt="Screenshot " src="https://github.com/user-attachments/assets/7c3564c2-515d-4aff-8ec5-663897e5131f" />
 
 
 ---
