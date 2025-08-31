@@ -36,6 +36,5 @@ http://127.0.0.1:5500/loginpage.html
 ## 📁 How to Run Locally
 
 1. Clone the repository:
+git clone https://github.com/Om8908/login-page-html-css.git
 
-   ```bash
-   git clone https://github.com/Om8908/login-page-html-css.git
